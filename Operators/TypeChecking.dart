@@ -10,10 +10,10 @@ void main(){
   print(z.runtimeType);     //int
   print(s.runtimeType);
 
-  //print(x is int);      //true
   print(y is int);        //false
   print(z is int);        //true
+  //print(x is int);      //true
   //print(y is num);      //true
   // print(s is String);  //true
-  
+
 }
