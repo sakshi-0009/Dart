@@ -1,5 +1,6 @@
 void main(){
   int budget = 600;
+  
   if(budget < 999){
     print("Eligible for TCS NQT-Cognitive Exam:)");
   }
