@@ -1,13 +1,13 @@
-void main(){
+void main() {
   int x = 3;
-  switch(x){
+  switch (x) {
     case 1:
-    print("One");
+      print("One");
     case 2:
-    print("Two");
+      print("Two");
     case 3:
-    print("Three");
+      print("Three");
     default:
-    print("No match");
+      print("No match");
   }
 }
