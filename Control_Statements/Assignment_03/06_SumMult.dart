@@ -10,6 +10,6 @@ void main(){
     }
     i++;
   }
-  print("Sum of even numbers : $sum");
-  print("Multiplication of odd numbers : $mult");
+  print("Sum of Even numbers : $sum");
+  print("Multiplication of Odd numbers : $mult");
 }
