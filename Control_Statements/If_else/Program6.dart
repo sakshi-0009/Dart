@@ -1,8 +1,8 @@
 void main(){
-  dynamic x = true;
-  x = 1;
-  if(x){
-    print("x");
+  var age = 15;
+  var ans = age >> 2;
+  if(ans==60){
+    print("In if block");
   }
-
+  print("Out of if block");
 }
