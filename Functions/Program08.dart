@@ -1,6 +1,6 @@
 // Recursion :-
 
-// Program : Write for loop to print number from 5 to 1 in recursion:
+// Program : Write for loop to print number from 10 to 1 in recursion:
 
 void fun(int n){
   if(n==0){
