@@ -1,14 +1,14 @@
 void main() {
-  var x = "monday";
-  switch (x) {
-    case "monday":
-      print("one");
-    case 2:
-      print("two");
-      break;
-    case 3:
-      print("three");
-    default:
-      print("No match");
+  int x = 5;
+  int y = 6;
+  int ans = (x|y>>2);
+  switch(ans){
+    case 10:
+    print("ten");
+    case 20:
+    print("twenty");
+    case 30:
+    print("thirty");
   }
+  print(ans);
 }
