@@ -1,7 +1,7 @@
 class Demo{
   int x = 10;
   Demo(){
-    print(x.hashCode);  //116010
+    print(this.hashCode);  //116010
   }
 }
 void main(){
