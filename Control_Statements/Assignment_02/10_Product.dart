@@ -3,5 +3,5 @@ void main(){
   for(int i=1; i<=10; i++){
     product = product*i;
   }
-  print(product);
+  print("Product is : $product");
 }
