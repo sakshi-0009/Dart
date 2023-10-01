@@ -4,7 +4,9 @@ class Demo{
   const Demo(this.x,this.name);
 }
 void main(){
-  Demo obj1 = new Demo(10,"kanha");   //838360209
+  //If we cannot make object as const it points to different objects and gives different hashCode values.
+
+  Demo obj1 = new Demo(10,"Kanha");   //838360209
   Demo obj2 = new Demo(10,"Kanha");   //789726769
   print(obj1.hashCode);
   print(obj2.hashCode);
