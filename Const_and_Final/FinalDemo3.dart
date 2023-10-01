@@ -9,8 +9,8 @@ void main(){
   //If we make object as const it points to same objects and gives same hashCode values.
   //It leads to efficient memory management and increases the performance.
 
-  Demo obj1 = const Demo(10,"Kanha");   //838360209
-  Demo obj2 = const Demo(10,"Kanha");   //789726769
+  Demo obj1 = const Demo(10,"Kanha");   //303724849
+  Demo obj2 = const Demo(10,"Kanha");   //303724849
   print(obj1.hashCode);
   print(obj2.hashCode);
 }
